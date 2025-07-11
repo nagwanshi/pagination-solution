@@ -35,3 +35,25 @@ code {
   object-fit: cover;
   margin-bottom: 1px;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.pagination > span {
+  padding: 15px 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.pagination__selected {
+  background-color: lightgray;
+}
+
+.pagination__disabled {
+  opacity: 0;
+}
